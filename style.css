@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 128, 128);
+  height: 100vh;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: rgb(192, 192, 192);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.warnbox {
+  background: linear-gradient(to right, #02afe6, rgb(9, 9, 121));
+  color: white;
+  padding: 1px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  box-shadow: 4px 4px 10px -3px rgba(0, 0, 0, 0.75);
+}
